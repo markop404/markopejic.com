@@ -1,7 +1,7 @@
 baseURL = "https://markopejic.com/"
 languageCode = "en-us"
 title = "Marko Pejić"
-theme = "typo-marko"
+theme = "erratum"
 
 [params]
 description = "Marko Pejić's Website"
@@ -10,7 +10,7 @@ colorPalette = "base16-eighties"
 favicons = false
 footerContent = """
 
-© 2025 [Marko Pejić](/) · Powered by {{< link "https://gohugo.io/" "Hugo" >}} & {{< link "https://github.com/markop404/typo-marko" "typo-marko" >}}
+© 2025 [Marko Pejić](/) · Powered by {{< link "https://gohugo.io" "Hugo" >}} & {{< link "https://github.com/markop404/erratum" "Erratum" >}}
 
 """
 homeIntroContent = """
@@ -20,7 +20,7 @@ Free & open-source software enthusiast and developer.
 ### Projects
 
 - {{< link "https://downloader.markopejic.com" "Media Downloader" >}}
-- {{< link "https://github.com/markop404/typo-marko" "typo-marko" >}}
+- {{< link "https://github.com/markop404/erratum" "Erratum" >}}
 
 ### Contact
 
