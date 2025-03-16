@@ -1,0 +1,49 @@
+baseURL = "https://markopejic.com/"
+languageCode = "en-us"
+title = "Marko Pejić"
+theme = "typo-marko"
+
+[params]
+description = "Marko Pejić's Website"
+subtitle = "Marko Pejić's Website"
+colorPalette = "base16-eighties"
+favicons = false
+footerContent = """
+
+© 2025 [Marko Pejić](/) · Powered by {{< link "https://gohugo.io/" "Hugo" >}} & {{< link "https://github.com/markop404/typo-marko" "marko-typo" >}}
+
+"""
+homeIntroContent = """
+
+Free & open-source software enthusiast and developer.
+
+### Projects
+
+- {{< link "https://downloader.markopejic.com" "Media Downloader" >}}
+
+### Contact
+
+- Email: <dev@markopejic.com>
+
+### Support
+
+You can support my work by donating via {{< link "https://ko-fi.com/markopejic" "Ko-fi" >}} or by starring my projects over on {{< link "https://github.com/markop404" "GitHub" >}}.
+"""
+
+[params.contact]
+email = "dev@markopejic.com"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/markop404"
+
+[[params.social]]
+name = "kofi"
+url = "https://ko-fi.com/markopejic"
+
+[[params.social]]
+name = "email"
+url = "mailto:dev@markopejic.com"
+
+[markup.goldmark.renderer]
+unsafe = true
