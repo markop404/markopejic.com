@@ -1,3 +1,3 @@
-# [markopejic.com](https://markopejic.com/)
+# [My website](https://markopejic.com/)
 
-My website
+Built with [Hugo](https://gohugo.io/) and [Tailwind CSS](https://tailwindcss.com/), with no JavaScript.
