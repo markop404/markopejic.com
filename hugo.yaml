@@ -6,8 +6,6 @@ params:
   not_found:
     text: This page doesn't exist...
     button: Back to homepage
-cleanDestinationDir: true
-ignoreCache: true
 disableKinds:
   - rss
   - section
