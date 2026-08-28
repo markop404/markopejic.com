@@ -1,0 +1,13 @@
+{{- define "main" -}}
+  <div>
+    <h1 class="text-7xl sm:text-8xl font-bold uppercase leading-20 sm:leading-25 tracking-tight">
+      {{ site.Title }}
+    </h1>
+    <h2 class="text-2xl sm:text-3xl mb-10 font-medium tracking-tight">
+      {{ .Description }}
+    </h2>
+    <div class="markdown">
+      {{ .Content }}
+    </div>
+  </div>
+{{- end -}}

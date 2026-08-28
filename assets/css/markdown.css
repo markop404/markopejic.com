@@ -1,0 +1,15 @@
+.markdown {
+  @apply font-medium text-lg
+}
+
+.markdown p {
+  @apply mt-5
+}
+
+.markdown ul {
+  @apply list-disc ml-10
+}
+
+.markdown a {
+  @apply text-teal-300 hover:underline
+}

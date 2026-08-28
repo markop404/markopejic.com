@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "hugo --minify",
+    "server": "hugo server --disableFastRender",
+    "publish": "git add . && git commit -m 'Update' && git push"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  },
+  "allowScripts": {
+    "@parcel/watcher": true
+  }
+}

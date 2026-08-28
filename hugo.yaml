@@ -1,0 +1,35 @@
+baseURL: https://markopejic.com/
+locale: en-us
+title: Marko Pejić
+params:
+  theme_color: "#134e4a"
+  not_found:
+    text: This page doesn't exist...
+    button: Back to homepage
+cleanDestinationDir: true
+ignoreCache: true
+disableKinds:
+  - rss
+  - section
+  - taxonomy
+  - term
+  - page
+  - sitemap
+build:
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: assets/notwatching/hugo_stats.json
+      target: css
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - disableWatch: true
+      source: hugo_stats.json
+      target: assets/notwatching/hugo_stats.json
+security:
+  exec:
+    allow:
+      - ^node$
+      - ^tailwindcss$

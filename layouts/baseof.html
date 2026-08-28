@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale }}" dir="{{ or site.Language.Direction `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ with (templates.Defer (dict "key" "global")) -}}
+    {{- partial "css.html" . -}}
+  {{- end }}
+</head>
+<body class="bg-linear-to-br from-teal-900 sm:from-teal-800 to-teal-950 text-teal-100">
+  <main class="w-3xl max-w-full mx-auto p-5 min-h-screen flex items-center">
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>
