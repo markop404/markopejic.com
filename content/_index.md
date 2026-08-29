@@ -1,5 +1,5 @@
 ---
-description: Just a guy who sometimes writes code
+description: Just a guy who sometimes writes code...
 ---
 
 Some of my projects you might find useful:
