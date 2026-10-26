@@ -2,7 +2,6 @@ baseURL: https://markopejic.com/
 locale: en-us
 title: Marko Pejić
 params:
-  theme_color: "#134e4a"
   not_found:
     text: This page doesn't exist...
     button: Back to homepage
