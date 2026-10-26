@@ -13,6 +13,8 @@ disableKinds:
   - page
   - sitemap
 build:
+  cleanDestinationDir:
+    enable: true
   buildStats:
     enable: true
   cachebusters:

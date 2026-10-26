@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "rm -rf public/ && hugo --minify",
+    "build": "hugo --minify",
     "server": "hugo server --disableFastRender",
     "publish": "git add . && git commit -m 'Update' && git push"
   },
